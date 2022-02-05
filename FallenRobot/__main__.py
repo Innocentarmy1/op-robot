@@ -74,13 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʏ\n ɪ'ᴍ *ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ*[!](https://telegra.ph/file/b921645cc124c9d7acf7c.jpg)\nᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs /help
+ʜᴇʏ\n ɪ'ᴍ *ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ*[!](https://te.legra.ph/file/238425e66dd8137776b1b.jpg)\nᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ\n  ɪ ʜᴀᴠᴇ ᴀᴡᴇsᴏᴍᴇ ꜰᴇᴀᴛᴜʀᴇs ᴀɴᴅ ɴᴏ ᴏɴᴇ ᴄᴀɴ ʙᴇᴀᴛ ᴍᴇ ꜰᴏʀ ɢᴇᴛᴛɪɴɢ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs /help
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🥺 ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ​ 🥺", url="t.me/luckyybbot?startgroup=true"),
+            text="🥺
+ ᴀᴅᴅ ᴍᴇ ᴇʟsᴇ ʏᴏᴜ ɢᴇʏ​ ", url="t.me/rfc_robot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="💞 ᴀʙᴏᴜᴛ ᴍᴇ​​ 💞​", callback_data="fallen_"),
@@ -90,18 +91,18 @@ buttons = [
         InlineKeyboardButton(
             text="🤔 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ 🤔", callback_data="source_"),
         InlineKeyboardButton(
-            text="😘 sᴜᴘᴘᴏʀᴛ 😘", url="https://t.me/terayaarhoomai"
+            text="😘 sᴜᴘᴘᴏʀᴛ 😘", url="https://t.me/RFC_TEAM"
         ),
     ],
 ]
 
-FallenRobot_IMG = "https://telegra.ph/file/b921645cc124c9d7acf7c.jpg"
+FallenRobot_IMG = "https://te.legra.ph/file/238425e66dd8137776b1b.jpg"
 
 HELP_STRINGS = """
-*ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs\n ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs\n» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !\n» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @cute_boy701*"""
+*ʟᴜᴄᴋʏ ʀᴏʙᴏᴛ ᴇxᴄʟᴜsɪᴠᴇ ꜰᴇᴀᴛᴜʀᴇs\n ᴄʜᴇᴄᴋᴏᴜᴛ ᴀʟʟ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅs\n» ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !\n» ɪꜰ ʏᴏᴜ ɢᴏᴛ ᴀɴʏ ɪssᴜᴇ ᴏʀ ʙᴜɢ ɪɴ ᴀɴʏ ᴄᴏᴍᴍᴀɴᴅ ᴘʟᴇᴀsᴇ ʀᴇᴘᴏʀᴛ ɪᴛ ᴛᴏ @RFC_TEAM*"""
 
 
-DONATE_STRING = """[𝗟𝗨𝗖𝗞𝗬 🖤 𝗕𝗢𝗬](t.me/cute_boy701)"""
+DONATE_STRING = """[𝗟𝗨𝗖𝗞𝗬 🖤 𝗕𝗢𝗬](t.me/DEEWANA_MAHADEV_KA)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -347,7 +348,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
     if query.data == "fallen_":
         query.message.edit_text(
             text="""ɪ'ᴍ *ʟᴜᴄᴋʏ​ ʀᴏʙᴏᴛ*\nᴛʜᴇ ᴍᴏsᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴏꜰ ᴛᴇʟᴇɢʀᴀᴍ.\n❍ I can restrict users.\n❍ I can greet users with customizable welcome messages and even set a group's rules.\n❍ I have an advanced anti-flood system.\n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.\n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.\n❍ I check for admin's permissions before executing any command and more stuffs.\n_ʟᴜᴄᴋʏ's licensed under the GNU General Public License v3.0_
-                 If you have any question about Me, let us know at [sᴜᴘᴘᴏʀᴛ​](t.me/terayaarhoomai)""",
+                 If you have any question about Me, let us know at [sᴜᴘᴘᴏʀᴛ​](t.me/RFCTEAM)""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -373,8 +374,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""Hey...😘\nI'm *Lucky Robot*
-                 \nHere is my [Source Code](https://t.me/terayaarhoomai).""",
+            text="""Hey...😘\nI'm *RFC ROBOT*
+                 \nHere is my [Source Code](https://t.me/rfc_team).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
